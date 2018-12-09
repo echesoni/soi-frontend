@@ -1,0 +1,19 @@
+{
+  "name": "soi-frontend",
+  "version": "1.0.0",
+  "description": "soi frontend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echesoni/soi-frontend.git"
+  },
+  "author": "Elaine Chesoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/echesoni/soi-frontend/issues"
+  },
+  "homepage": "https://github.com/echesoni/soi-frontend#readme"
+}
