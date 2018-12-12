@@ -1,0 +1,46 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SOI</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <h1 id="header">Schedule of Investments</h1>
+  <!-- <div id="portfolio"></div> -->
+  <div class="row">
+    <form class="col s4 offset-s4">
+      <div class="row">
+         <label>Select a date</label>
+         <!-- take value out after testing -->
+         <input type="text" id="date" class="datepicker" value="08/01/2014">
+      </div>
+    </form>
+  </div>
+  <button class="btn waves-effect waves-light" id="filter-button" type="submit" name="action">Filter Investments
+    <i class="material-icons right">send</i>
+  </button>
+  <div id="table-heading-box" class="row">
+    <p class="table-headings col s2 offset-s2">Investment</p>
+    <p class="table-headings col s2">Asset</p>
+    <p class="table-headings col s2">Investment Date</p>
+    <p class="table-headings col s2 center">Shares</p>
+    <p class="table-headings col s2 center">Cost</p>
+  </div>
+
+  <ul id="portfolio" class="collapsible"></ul>
+    <!-- Load jquery and custom js before materialize cdns -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>

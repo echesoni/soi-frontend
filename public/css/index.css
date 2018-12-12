@@ -1,0 +1,57 @@
+/********************
+        *all
+*********************/
+* {
+  font-family: 'Roboto', serif;
+}
+
+/********************
+  DatePicker Styles
+*********************/
+
+#date {
+  text-align: center;
+}
+
+.picker__date-display {
+  background-color:blue;
+}
+.picker__weekday-display {
+  background-color:red;
+}
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+  background-color:blue;
+}
+
+
+/********************
+  Collapsible Styles
+*********************/
+#table-heading-box, .table-headings {
+  padding-left: 2.5em;
+}
+
+.collapsible-title, .table-headings {
+  font-weight: bold;
+  /*flex-grow: 1;*/
+}
+
+.header-info {
+  font-weight: bold;
+  text-align: center;
+  /*flex-grow: 1;*/
+}
+
+.center {
+  text-align: center;
+}
+
+.body-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.body-sub-info {
+  text-align: center;
+  /*flex-grow: 1;*/
+}

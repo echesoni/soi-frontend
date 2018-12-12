@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/echesoni/soi-frontend/issues"
   },
-  "homepage": "https://github.com/echesoni/soi-frontend#readme"
+  "homepage": "https://github.com/echesoni/soi-frontend#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "nodemon": "^1.18.8",
+  }
 }
