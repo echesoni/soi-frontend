@@ -2,7 +2,7 @@
         *all
 *********************/
 * {
-  font-family: 'Roboto', serif;
+  font-family: 'Open Sans', serif;
 }
 
 /********************
@@ -13,16 +13,23 @@
   text-align: center;
 }
 
-.picker__date-display {
-  background-color:blue;
+.datepicker-date-display {
+  background-color: #0277bd !important;
 }
-.picker__weekday-display {
+.picker-weekday-display {
   background-color:red;
 }
-.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
-  background-color:blue;
+.datepicker--focused, .datepicker-table td.is-selected {
+  background-color: #0277bd !important;
 }
 
+.datepicker-day-button:hover {
+  background-color: #b3e5fc !important;
+}
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color: #0277bd !important;
+}
 
 /********************
   Collapsible Styles
