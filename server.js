@@ -1,5 +1,5 @@
 const http = require('http');
-const hostname = '127.0.0.1';
+// const hostname = '127.0.0.1';
 
 'use strict';
 
@@ -17,8 +17,10 @@ app.get('/', (req, res) => {
   res.sendFile( __dirname + '/views/index.html');
 });
 
+// use for local development
 // app.listen(port, hostname, () => {
 //   console.log(`Server running at http://${hostname}:${port}/`);
 // });
 
+// user for production
 app.listen(process.env.PORT || 5000);
