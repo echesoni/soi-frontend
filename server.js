@@ -17,10 +17,8 @@ app.get('/', (req, res) => {
   res.sendFile( __dirname + '/views/index.html');
 });
 
-let port = process.env.PORT;
-if( port == null || port == "") {
-  port = 5000;
-}
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+// app.listen(port, hostname, () => {
+//   console.log(`Server running at http://${hostname}:${port}/`);
+// });
+
+app.listen(process.env.PORT || 5000);
